@@ -9,5 +9,11 @@ public class Main {
 
         book1.checkOut();
         System.out.println("Available after checkout " + book1.isAvailable());
+
+        DVD dvd1 = new DVD(2, "Inciption", "Christopher Nolan" ,148);
+
+        System.out.println(dvd1.getDetails());
+        System.out.println("Available: " + dvd1.isAvailable());
+
     }
 }
